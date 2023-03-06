@@ -1,0 +1,6 @@
+2023-03-06 11:29:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from [*]Table"; expected "identifier"; SQL statement:
+select * from Table [42001-214]
+2023-03-06 11:34:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEAM" not found (this database is empty); SQL statement:
+select * from TEAM [42104-214]
